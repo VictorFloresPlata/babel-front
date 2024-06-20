@@ -13,7 +13,7 @@ export class ApiService {
 
 
 
-  private listarComics = `localhost:8080/comics`
+  private listarComics = `http://localhost:8080/comics`
 
 
 

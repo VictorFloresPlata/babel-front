@@ -33,21 +33,15 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Deshmukh</td>
+                                   
+                                    <tr *ngFor="let row of comicDTO">
+                                        <td>{{row.available}}</td>
+                                        <td>{{row.collectionURI}}</td>
                                         <td>Prohaska</td>
                                         <td>@Genelia</td>
                                        
                                     </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Deshmukh</td>
-                                        <td>Gaylord</td>
-                                        <td>@Ritesh</td>
-                                       
-                                    </tr>
-                                   
+                                
                                 </tbody>
                             </table>
                         </div>
